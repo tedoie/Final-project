@@ -171,6 +171,7 @@ header .icon {
   background-image: url(../img/tbilisi.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 64px;
 }
 
 @media (max-width: 1440px) {
@@ -178,4 +179,198 @@ header .icon {
     background-size: contain;
     background-repeat: no-repeat;
   }
+}
+.s2 div {
+  max-width: 1444px;
+  height: 503px;
+  margin: 64px auto;
+}
+.s2 div h1 {
+  color: #222;
+  font-family: "Bona Nova";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s2 div .cardwrapper {
+  max-width: 1444px;
+  height: 436px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.s2 div .cardwrapper .card {
+  width: 335px;
+  height: 436px;
+}
+.s2 div .cardwrapper .card .img1 {
+  border-radius: 10px 10px 0 0;
+  width: 335px;
+  height: 232px;
+  background-image: url(../img/BATUMI.jpg);
+  background-size: cover;
+  margin: 0px;
+  position: relative;
+  z-index: 1;
+}
+.s2 div .cardwrapper .card .img1 .fa-heart {
+  position: absolute;
+  z-index: 5;
+  left: 295px;
+  top: 20px;
+}
+.s2 div .cardwrapper .card .img1 .fa-heart:hover {
+  scale: 1.5;
+  transition-duration: 1s;
+}
+.s2 div .cardwrapper .card .cardcontent {
+  margin: 0px;
+  width: 335px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+  border: 1px solid #D3D3D3;
+}
+.s2 div .cardwrapper .card .cardcontent .cityname {
+  color: #222;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s2 div .cardwrapper .card .cardcontent p {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+.s2 div .cardwrapper .card .cardcontent .moreinfo {
+  color: #000;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s2 div .cardwrapper .card2 {
+  width: 335px;
+  height: 436px;
+}
+.s2 div .cardwrapper .card2 .img2 {
+  border-radius: 10px 10px 0 0;
+  width: 335px;
+  height: 232px;
+  background-image: url(../img/bakuriani.jpg);
+  background-size: cover;
+  margin: 0px;
+  position: relative;
+  z-index: 1;
+}
+.s2 div .cardwrapper .card2 .img2 .fa-heart {
+  position: absolute;
+  z-index: 5;
+  left: 295px;
+  top: 20px;
+}
+.s2 div .cardwrapper .card2 .img2 .fa-heart:hover {
+  scale: 1.5;
+  transition-duration: 1s;
+}
+.s2 div .cardwrapper .card2 .cardcontent {
+  margin: 0px;
+  width: 335px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+  border: 1px solid #D3D3D3;
+}
+.s2 div .cardwrapper .card2 .cardcontent .cityname {
+  color: #222;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s2 div .cardwrapper .card2 .cardcontent p {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+.s2 div .cardwrapper .card2 .cardcontent .moreinfo {
+  color: #000;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s2 div .cardwrapper .card3 {
+  width: 335px;
+  height: 436px;
+}
+.s2 div .cardwrapper .card3 .img3 {
+  border-radius: 10px 10px 0 0;
+  width: 335px;
+  height: 232px;
+  background-image: url(../img/tbilisi2.png);
+  background-size: cover;
+  margin: 0px;
+  position: relative;
+  z-index: 1;
+}
+.s2 div .cardwrapper .card3 .img3 .fa-heart {
+  position: absolute;
+  z-index: 5;
+  left: 295px;
+  top: 20px;
+}
+.s2 div .cardwrapper .card3 .img3 .fa-heart:hover {
+  scale: 1.5;
+  transition-duration: 1s;
+}
+.s2 div .cardwrapper .card3 .cardcontent {
+  margin: 0px;
+  width: 335px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+  border: 1px solid #D3D3D3;
+}
+.s2 div .cardwrapper .card3 .cardcontent .cityname {
+  color: #222;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s2 div .cardwrapper .card3 .cardcontent p {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+.s2 div .cardwrapper .card3 .cardcontent .moreinfo {
+  color: #000;
+  font-family: "Inter";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }/*# sourceMappingURL=global1.css.map */
